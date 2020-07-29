@@ -1,0 +1,17 @@
+.graph-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.graph {
+  flex-grow: 1;
+  overflow: auto;
+}
+
+.graph-buttons-container {
+  height: var(--psLayoutSpacingXLarge);
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+}

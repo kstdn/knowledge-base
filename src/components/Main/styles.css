@@ -1,0 +1,6 @@
+.main-container {
+  background-color: var(--psColorsBackgroundDark1);
+  color: var(--psColorsTextIconHighOnDark);
+  padding: var(--psLayoutSpacingMedium);
+  flex-grow: 1;
+}

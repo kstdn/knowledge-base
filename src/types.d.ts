@@ -1,0 +1,10 @@
+declare module '@pluralsight/ps-design-system-theme';
+declare module '@pluralsight/ps-design-system-button';
+declare module '@pluralsight/ps-design-system-icon';
+declare module '@pluralsight/ps-design-system-textinput';
+declare module '@pluralsight/ps-design-system-form';
+declare module '@pluralsight/ps-design-system-table';
+declare module '@pluralsight/ps-design-system-circularprogress';
+declare module '@pluralsight/ps-design-system-switch';
+declare module '@pluralsight/ps-design-system-layout';
+declare module '@pluralsight/ps-design-system-text';
