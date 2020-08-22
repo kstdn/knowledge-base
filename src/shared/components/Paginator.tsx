@@ -15,6 +15,11 @@ type Props = {
   onGoToPage: (page: number) => void;
 };
 
+const paginatorContainerStyle = {
+  display: 'flex',
+  alignItems: 'center',
+};
+
 const Paginator = ({
   itemsCount,
   totalCount,
@@ -30,11 +35,11 @@ const Paginator = ({
   const isLastPage = to === totalCount;
 
   return (
-    <>
+    <div style={paginatorContainerStyle}>
       {!isFirstPage && <CaretLeftIcon onClick={() => onGoToPage(currentPage - 1)} />}
       {`${from} - ${to} of ${totalCount}`}
       {!isLastPage && <CaretRightIcon onClick={() => onGoToPage(currentPage + 1)} />}
-    </>
+    </div>
   );
 };
 

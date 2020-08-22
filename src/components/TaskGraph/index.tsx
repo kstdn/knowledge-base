@@ -1,4 +1,5 @@
 import CircularProgress from '@pluralsight/ps-design-system-circularprogress';
+import { colorsCode, colorsPrimaryAction } from "@pluralsight/ps-design-system-core";
 import React, { FunctionComponent, useState } from "react";
 import { Graph, GraphNodeDef } from "react-graph";
 import { useHistory } from 'react-router-dom';
@@ -69,10 +70,10 @@ const TaskGraph = () => {
           loadNodesAsyncFunc={getNotesByIds}
           onNodeSelected={onNodeSelected}
           graphStyles={{
-            nodeStrokeColor: "#e91e63",
+            nodeStrokeColor: colorsPrimaryAction.background,
             nodePadding: "0",
             nodeHeight: "36px",
-            branchStrokeColor: "#9e9e9e",
+            branchStrokeColor: colorsCode.gray,
           }}
         />
       </div>
